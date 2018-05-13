@@ -4,7 +4,7 @@ K_netlink.c 是内核空间程序,编译时需要修改该同级目录下的Kcon
 
 ./u_netlink 文件夹中是用户空间程序，在opewnrt下实现，生成u_netlink.ipk
 
-./u_netlink/Makefile 是openwrt 生成ipk包需要变量的预定义，依赖，配置选项，安装选项等
+./u_netlink/Makefile 是openwrt 生成ipk包需要变量的预定义，依赖，配置选项，安装选项等,为了便于可移植
 
 ./u_netlink/src/u_netlink.c    用户空间程序
 
