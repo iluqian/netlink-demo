@@ -1,3 +1,4 @@
+# netlink-demo
 文件目录说明：
 
 K_netlink.c 是内核空间程序,编译时需要修改该同级目录下的Kconfig或者直接修改Makefile文件obj-m := k_netlink.o，用来生成内核模块 k_netlink.ko
